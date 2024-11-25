@@ -13,7 +13,7 @@ export default function Late() {
                     <p>Dette er det første Tora Murtnes-Hatlestad (30) hadde å si da hun fikk spørsmål om hverdagen før hun fikk diagnosen. Hun fikk diagnosen i en alder av 29 år, og det var ingen som hadde mistenkt at hun kunne ha diagnosen før nå.</p>
 
                     <figure>
-                        <img src="../src/pictures/ADHD/Tora/Tora.jpg" alt="Bilde av Tora" />
+                        <img src={"/pictures/ADHD/Tora/Tora.png"} alt="Bilde av Tora" />
                         <p className="photo-text">
                         Tora Murtnes-Hatlestad (30)
                         </p>
@@ -31,7 +31,7 @@ export default function Late() {
                     </p>
                     
                     <figure>
-                        <img className="drawing" src="../src/pictures/ADHD/Tora/tora-prestasjon.png" alt="Illustrasjon av Tora som består en test" />
+                        <img className="drawing" src={"/pictures/ADHD/Tora/tora-prestasjon.png"} alt="Illustrasjon av Tora som består en test" />
                         <p className="photo-text">
                         Tora Murtnes-Hatlestad (30)
                         </p>
@@ -58,7 +58,7 @@ export default function Late() {
 
                     <p>Hun beskriver det som om noen hadde trykket på en «quit»-knapp for alle de åpne fanene i hodet hennes. Den kaotiske støyen som alltid hadde fulgt henne, stilnet. «Radiokanaler» hun aldri hadde valgt å høre på, men som alltid hadde spilt i bakgrunnen, ble plutselig skrudd av. For første gang kunne hun fokusere på én tanke, én opplevelse, uten å bli overveldet av alt annet.</p>
                     <figure>
-                        <img className="drawing" src="../src/pictures/ADHD/Tora/motorsykkel-backgrunn2x.webp" alt="kollektiv-bilde" />
+                        <img className="drawing" src={"/pictures/ADHD/Tora/motorsykkel-backgrunn2x.webp"} alt="kollektiv-bilde" />
                         <p className="photo-text">
                         - Det var en ganske syk opplevelse, forklarer hun. – Jeg innså hvordan andre må ha det hver dag.
                         </p>

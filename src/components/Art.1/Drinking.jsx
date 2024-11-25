@@ -25,7 +25,7 @@ export default function Drinking({ setDrinkTitle, setDrinkQuote }) {
                     <p className="topQuote" id="drinkQuote">- Jeg synes det er litt leit at det alltid er alkohol med i bildet når man skal finne på noe med andre studenter, sier Jonas Heggelund (24), student ved Høgskolen i Østfold</p>
 
                     <figure>
-                        <img src="./src/pictures/Drinking/man-drink.PNG" alt="kollektiv-bilde" />
+                        <img src={"/pictures/Drinking/man-drink.PNG"} alt="kollektiv-bilde" />
                         <p className="photo-text">
                             Jonas Heggelund er lei av at studentene alltid drikker alkohol ved sosiale anledninger.
                         </p>
@@ -50,7 +50,7 @@ export default function Drinking({ setDrinkTitle, setDrinkQuote }) {
                     </p>
 
                     <figure>
-                        <img src="./src/pictures/Drinking/beerpong.PNG" alt="kollektiv-bilde" />
+                        <img src={"/pictures/Drinking/beerpong.PNG"} alt="kollektiv-bilde" />
                         <p className="photo-text">
                             Her står studentene samlet rundt bordet for den velkjente drikkeleken "beer pong".
                         </p>
@@ -64,7 +64,7 @@ export default function Drinking({ setDrinkTitle, setDrinkQuote }) {
                     </p>
                     
                     <div className="background-parallax">
-                        <img className="gif" src="./src/pictures/Drinking/transparent.webp" alt="drink animation" width="200px" />
+                        <img className="gif" src={"/pictures/Drinking/transparent.webp"} alt="drink animation" width="200px" />
                     </div>
 
                     <p className="sitat">- Flere studenter ved Høgskolen i Østfold mener derfor at det er på tide å skape et mer inkluderende studentmiljø ved å tilby flere attraktive alkoholfrie alternativer.</p>
