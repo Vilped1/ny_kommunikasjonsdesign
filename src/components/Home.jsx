@@ -10,7 +10,7 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
                     <article id="XL">
                 <Link to="/adhd">
                         <h2>{adhdTitle}</h2>
-                        <img src="/pictures/ADHD/Half-Brain.jpg" alt="#"/>
+                        <img src="../pictures/ADHD/Half-Brain.jpg" alt="#"/>
                         <p>{adhdQuote}</p>
                 </Link>
                     </article>
