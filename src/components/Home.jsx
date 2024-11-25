@@ -10,14 +10,14 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
                     <article id="XL">
                 <Link to="/adhd">
                         <h2>{adhdTitle}</h2>
-                        <img src={"/pictures/ADHD/tuva-tora1.jpg"} alt="#"/>
+                        <img src={"/pictures/ADHD/tuva-tora_1.png"} alt="#"/>
                         <p>{adhdQuote}</p>
                 </Link>
                     </article>
 
                     <article id="S">
                 <Link to="rob">
-                        <img src={"/pictures/Rob/AI-rob.PNG"} alt="#"/>
+                        <img src={"/pictures/Rob/line-oda.png"} alt="#"/>
                         <h3>{robTitle}</h3>
                         <p>{robQuote}</p>
                 </Link>
@@ -25,7 +25,7 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
                 
                         <article id="M">
                     <Link to="/toll">
-                            <img src={"/pictures/Toll/Bom.jpeg"} alt="#"/>
+                            <img src={"/pictures/Toll/Bom2.jpeg"} alt="#"/>
                             <h3>{tollTitle}</h3>
                             <p>{tollQuote}</p>
                     </Link>

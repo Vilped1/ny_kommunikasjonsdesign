@@ -11,7 +11,7 @@ export default function Early() {
                     <p className="topQuote" id="earlyQuote">- Det var utrolig å se hvor stor forskjell det var, forteller hun.</p>
 
                     <figure>
-                        <img src={"pictures/ADHD/Tuva/tuva3.png"} alt="Bilde av Tora" />
+                        <img src={"/pictures/ADHD/Tuva/tuva3.png"} alt="Bilde av Tuva" />
                         <p className="photo-text">
                         Tuva Cecilie Fjeld (28)
                         </p>
@@ -22,7 +22,7 @@ export default function Early() {
 
                     <p>Tuva Cecilie Fjeld (28) ble diagnostiert med ADHD da hun var rundt seks år gammel, etter at lærerne på skolen oppdaget tegn og tilkalte <span className="services">PPT <span className="text-box">Står for pedagogisk-psykologisk tjeneste, som hjelper barnehager og skoler med å legge til rette for barn og elever med behov for tilrettelegging. <a href="https://www.udir.no/laring-og-trivsel/spesialpedagogikk/pp-tjenesten/">(Udir)</a></span></span>. For den lille jenta var hverdagen før diagnosen preget av mye stress og frustrasjon, særlig knyttet til lære- og skrivevansker. </p>
                     <figure>
-                        <img className="drawing" src={"pictures/ADHD/Tuva/tuva-prestasjoner.png"} alt="Illustrasjon av Tuva som stryker på en test" />
+                        <img className="drawing" src={"/pictures/ADHD/Tuva/tuva-prestasjoner.png"} alt="Illustrasjon av Tuva som stryker på en test" />
                         <p className="photo-text">
                         - Jeg hadde store utfordringer med å konsentrere meg, spesielt når det kom til skolen. Jeg slet mye, men i etterkant har jeg forstått hvorfor, forteller Tuva.
                         </p>
@@ -52,7 +52,7 @@ export default function Early() {
                     <p>Likevel har veien til å mestre ADHD ikke vært enkel. På barneskolen etter å ha fått diagnosen ADHD, vokste følelser av å føle seg utenfor, og unormal. </p>
 
                     <figure>
-                        <img className="drawing" src={"pictures/ADHD/Tuva/Tuva-utestengt.png"} alt="Illustrasjon av tuva som blir utestengt" />
+                        <img className="drawing" src={"/pictures/ADHD/Tuva/Tuva-utestengt.png"} alt="Illustrasjon av tuva som blir utestengt" />
                         <p className="photo-text">
                         - Også fikk jeg jo liksom lite informasjon om hva ADHD var, og da blir det på en måte til at du føler deg så utenfor, at du ikke er normal da, selv om man selvfølgelig er normal selv om man har det.
                         </p>
