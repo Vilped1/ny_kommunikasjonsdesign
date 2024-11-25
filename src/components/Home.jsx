@@ -17,7 +17,7 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
 
                     <article id="S">
                 <Link to="rob">
-                        <img src="../pictures/Rob/AI-rob.png" alt="#"/>
+                        <img src="./pictures/Rob/AI-rob.png" alt="#"/>
                         <h3>{robTitle}</h3>
                         <p>{robQuote}</p>
                 </Link>
