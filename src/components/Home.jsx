@@ -9,7 +9,7 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
 
                     <article id="XL">
                 <Link to="/adhd">
-                        <h2>{}</h2>
+                        <h2>{adhdTitle}</h2>
                         <img src="./pictures/ADHD/Half-Brain.jpg" alt="#"/>
                         <p>{adhdQuote}</p>
                 </Link>
@@ -17,7 +17,7 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
 
                     <article id="S">
                 <Link to="rob">
-                        <img src="src/pictures/Rob/AI-rob.png" alt="#"/>
+                        <img src="../pictures/Rob/AI-rob.png" alt="#"/>
                         <h3>{robTitle}</h3>
                         <p>{robQuote}</p>
                 </Link>
