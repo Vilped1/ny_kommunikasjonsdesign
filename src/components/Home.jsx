@@ -25,7 +25,7 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
                 
                         <article id="M">
                     <Link to="/toll">
-                            <img src="../public/pictures/toll/Bom.jpeg" alt="#"/>
+                            <img src="../public/pictures/Toll/Bom.jpeg" alt="#"/>
                             <h3>{tollTitle}</h3>
                             <p>{tollQuote}</p>
                     </Link>
