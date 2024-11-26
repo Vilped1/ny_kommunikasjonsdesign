@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { list } from "./TollList";
 import Map from "./Map";
 // import MapTest from "./MapTest";
 
-export default function Toll({ setTollTitle, setTollQuote }) {
+export default function Toll() {
 
     //FUNCTION TO CHECK IF ELEMENT IS IN VIEWPOR
-    useEffect(() => {
-        const toll = document.getElementById("tollTitle")?.innerText
-        const quote = document.getElementById("tollQuote")?.innerText
-        setTollTitle(toll)
-        setTollQuote(quote)
-    }, [setTollTitle, setTollQuote])
+    // useEffect(() => {
+    //     const toll = document.getElementById("tollTitle")?.innerText
+    //     const quote = document.getElementById("tollQuote")?.innerText
+    //     setTollTitle(toll)
+    //     setTollQuote(quote)
+    // }, [setTollTitle, setTollQuote])
 
     return (
         <>

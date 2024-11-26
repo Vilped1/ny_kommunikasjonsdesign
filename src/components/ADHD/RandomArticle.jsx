@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { data, data1, data2 } from "./data";
 
-export default function RandomArticle({ setAdhdTitle, setAdhdQuote }) {
+export default function RandomArticle() {
 
-        useEffect(() => {
-            const adhd = document.getElementById("adhdTitle")?.innerText
-            const quote = document.getElementById("adhdQuote")?.innerText
-            setAdhdTitle(adhd)
-            setAdhdQuote(quote)
-        }, [setAdhdTitle, setAdhdQuote])
+        // useEffect(() => {
+        //     const adhd = document.getElementById("adhdTitle")?.innerText
+        //     const quote = document.getElementById("adhdQuote")?.innerText
+        //     setAdhdTitle(adhd)
+        //     setAdhdQuote(quote)
+        // }, [setAdhdTitle, setAdhdQuote])
     
     const viewPoint = ["sent", "tidlig"];
     const [randomChoise, setRandomChoise] = useState("");

@@ -1,6 +1,6 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
-export default function Rob({ setRobTitle, setRobQuote }) {
+export default function Rob() {
 
     const times = [
         {time: "18:00", id: "one"},
@@ -17,12 +17,12 @@ export default function Rob({ setRobTitle, setRobQuote }) {
         {time: "19:15", id: "twelve"},
     ]
     
-    useEffect(() => {
-        const rob = document.getElementById("robTitle")?.innerText
-        const quote = document.getElementById("robQuote")?.innerText
-        setRobTitle(rob)
-        setRobQuote(quote)
-    }, [setRobTitle, setRobQuote])
+    // useEffect(() => {
+    //     const rob = document.getElementById("robTitle")?.innerText
+    //     const quote = document.getElementById("robQuote")?.innerText
+    //     setRobTitle(rob)
+    //     setRobQuote(quote)
+    // }, [setRobTitle, setRobQuote])
 
     //Data for drikke-animasjon     
     //https://studenthelse.no/shot-2022/rusmidler/

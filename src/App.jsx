@@ -14,7 +14,6 @@ import RandomArticle from './components/ADHD/RandomArticle'
 import Late from './components/ADHD/Late'
 import Early from './components/ADHD/Early'
 import Rob from './components/Art.3/Rob'
-import Rob2 from './components/Art.3/Rob2'
 
 function App() {
   // const [drinkTitle, setDrinkTitle] = useState("")
@@ -73,12 +72,12 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route index element={<Home drinkTitle={drinkTitle} drinkQuote={drinkQuote} tollTitle={tollTitle} tollQuote={tollQuote} robTitle={robTitle} robQuote={robQuote} adhdTitle={adhdTitle} adhdQuote={adhdQuote}/>} />
-        <Route path="/drinking" element={<Drinking setDrinkTitle={setDrinkTitle} setDrinkQuote={setDrinkQuote} />} />
+        <Route index element={<Home />} />
+        <Route path="/drinking" element={<Drinking />} />
         {/* <Route path="/toll" element={<Map/>} /> */}
-        <Route path="/toll" element={<Toll setTollTitle={setTollTitle} setTollQuote={setTollQuote} />} />
-        <Route path="/rob" element={<Rob setRobTitle={setRobTitle} setRobQuote={setRobQuote} />} />
-        <Route path="/adhd" element={<RandomArticle setAdhdTitle={setAdhdTitle} setAdhdQuote={setAdhdQuote} />} />
+        <Route path="/toll" element={<Toll />} />
+        <Route path="/rob" element={<Rob />} />
+        <Route path="/adhd" element={<RandomArticle />} />
           <Route path="adhd/sent" element={<Late />} />
           <Route path="adhd/tidlig" element={<Early />} />
 

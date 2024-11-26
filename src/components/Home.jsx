@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robTitle, robQuote, adhdTitle, adhdQuote}){
+export default function Home(){
     return(
         <>
 
@@ -11,7 +11,7 @@ export default function Home({drinkTitle, drinkQuote, tollTitle, tollQuote, robT
                 <Link to="/adhd">
                         <h2>To liv, én diagnose: <br /> Hvordan tidspunktet former ADHD-reisen</h2>
                         <img src={"/pictures/ADHD/tuva-tora_1.png"} alt="Bilde av Tuva og Tora"/>
-                        <p>{adhdQuote}</p>
+                        <p></p>
                 </Link>
                     </article>
 
