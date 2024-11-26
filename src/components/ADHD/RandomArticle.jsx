@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { data } from "./data";
+import { data, data1 } from "./data";
 
 export default function RandomArticle({ setAdhdTitle, setAdhdQuote }) {
 
@@ -61,7 +61,21 @@ export default function RandomArticle({ setAdhdTitle, setAdhdQuote }) {
                     En undersøkelse fra OsloMet, gjennomført for ADHD Norge i 2022, gir ytterligere innsikt i hvor alvorlig problemet er. Blant 3085 voksne med ADHD svarte hele 58,6 % av kvinnene at de først fikk diagnosen etter fylte 30 år. Dårlig henvisning til spesialister og manglende oppfølging er blant årsakene som trekkes frem. Blant de som opplevde dårlig henvisning, fikk nesten halvparten diagnosen etter fylte 30. For mange kvinner betyr dette flere tiår med feil behandling, frustrasjon og en følelse av å ikke bli forstått – både av seg selv og andre.
                     </p>
                     <img src="" alt="" />
-
+                    <ResponsiveContainer width="100%" height={400}>
+                        <BarChart data={data1} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis type="number" label={{ value: "Prosent (%)", position: "insideBottom", offset: -10 }} />
+                            <YAxis dataKey="gender" type="category" label={{ value: "Kjønn", angle: -90, position: "insideLeft" }} />
+                            <Tooltip />
+                            <Legend />
+                            <Bar dataKey="1 - Før eller mens jeg gikk på barneskolen" stackId="a" fill="#003f5c" />
+                            <Bar dataKey="2 - På ungdomsskolen" stackId="a" fill="#58508d" />
+                            <Bar dataKey="3 - På videregående skole (ca. 16 til 19 år)" stackId="a" fill="#bc5090" />
+                            <Bar dataKey="4 - Da jeg var mellom 20 og 30 år" stackId="a" fill="#ff6361" />
+                            <Bar dataKey="5 - Etter jeg fylte 30 år" stackId="a" fill="#ffa600" />
+                            <Bar dataKey="6 - Vet ikke" stackId="a" fill="#c9c9c9" />
+                        </BarChart>
+                    </ResponsiveContainer>
                     <p>Til tross for at ADHD er et tema som berører mange, har vi erfart at det kan være vanskelig å få kommentarer fra sentrale aktører i helsevesenet. Vi har forsøkt å kontakte Sykehuset i Østfold for å få deres synspunkter på problematikken rundt sen diagnostisering, samt hvilke tiltak som kan bidra til å bedre dagens praksis. Dessverre har vi ikke mottatt svar fra dem innen publisering av denne artikkelen.</p>
                     <img src="" alt="" />
 
