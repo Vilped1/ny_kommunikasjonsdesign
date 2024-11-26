@@ -37,7 +37,7 @@ export default function RandomArticle({ setAdhdTitle, setAdhdQuote }) {
                 </article>
                 </section>
 
-                <section id="chart">
+                <section className="chart">
             <ResponsiveContainer width="100%" height={400}>
                 <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -61,6 +61,7 @@ export default function RandomArticle({ setAdhdTitle, setAdhdQuote }) {
                     En undersøkelse fra OsloMet, gjennomført for ADHD Norge i 2022, gir ytterligere innsikt i hvor alvorlig problemet er. Blant 3085 voksne med ADHD svarte hele 58,6 % av kvinnene at de først fikk diagnosen etter fylte 30 år. Dårlig henvisning til spesialister og manglende oppfølging er blant årsakene som trekkes frem. Blant de som opplevde dårlig henvisning, fikk nesten halvparten diagnosen etter fylte 30. For mange kvinner betyr dette flere tiår med feil behandling, frustrasjon og en følelse av å ikke bli forstått – både av seg selv og andre.
                     </p>
                     <img src="" alt="" />
+                    <section className="chart">
                     <ResponsiveContainer width="100%" height={400}>
                         <BarChart data={data1} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                             <CartesianGrid strokeDasharray="3 3" />
@@ -76,6 +77,7 @@ export default function RandomArticle({ setAdhdTitle, setAdhdQuote }) {
                             <Bar dataKey="6 - Vet ikke" stackId="a" fill="#c9c9c9" />
                         </BarChart>
                     </ResponsiveContainer>
+                    </section>
                     <p>Til tross for at ADHD er et tema som berører mange, har vi erfart at det kan være vanskelig å få kommentarer fra sentrale aktører i helsevesenet. Vi har forsøkt å kontakte Sykehuset i Østfold for å få deres synspunkter på problematikken rundt sen diagnostisering, samt hvilke tiltak som kan bidra til å bedre dagens praksis. Dessverre har vi ikke mottatt svar fra dem innen publisering av denne artikkelen.</p>
                     <img src="" alt="" />
 
