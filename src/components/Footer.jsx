@@ -6,7 +6,7 @@ export default function Footer() {
             <h5>Kandidatnr: 411 & Kandidatnr: 420</h5>
             <p className="date">Tirsdag 26. November 13:30</p>
         
-            <p className="role" id="VA">Utvikler & designer: </p>
+            <p className="role" id="VA">Designer & utvikler: </p>
             <h5>Anne May Omberg & Vilde Andrea Fjeld Pedersen</h5>
             <h5>Kandidatnr: 479 & Kandidatnr: 402</h5>
             <p className="date">Tirsdag 26. November 13:30</p>
