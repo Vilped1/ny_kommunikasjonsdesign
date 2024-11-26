@@ -25,7 +25,7 @@ export default function Home(){
                 
                         <article id="M">
                     <Link to="/toll">
-                            <img src={"/pictures/Toll/Bom2.jpeg"} alt="Bilde av bom"/>
+                            <img src={"/pictures/Toll/boom_1@3x.png"} alt="Bilde av bom"/>
                             <h3>Bomringer i hverdagen: Kostnaden for å krysse bygrensene</h3>
                             <p>- De som styrer Sarpsborg vet ikke hvordan det er å sitte med tom lommebok, og istedenfor å se mennesker ser de tall, sier Gitte Yvonne Bjørndal Olsen (55) fra Sarpsborg.</p>
                     </Link>
