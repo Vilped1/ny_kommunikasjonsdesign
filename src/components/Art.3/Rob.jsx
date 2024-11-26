@@ -61,7 +61,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 <div className="clock">
                     <h2 className="tim">18:00</h2>
                     <figure>
-                        <img src={"/pictures/Rob/1800.png"} alt="Illustrasjon av " />
+                        <img src={"/pictures/Rob/1800.png"} alt="Illustrasjon av telefon meldinger" />
                         <figcaption className="photographer">
                             Illustratør: Anne May Omberg
                         </figcaption>
@@ -81,7 +81,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 <div className="clock">
                     <h2 className="tim">18:20</h2>
                     <figure>
-                        <img src={"/pictures/Rob/1820.png"} alt="kollektiv-bilde" />
+                        <img src={"/pictures/Rob/1820.png"} alt="Illustrasjon av at jentene møtes" />
                         <figcaption className="photographer">
                             Illustratør: Anne May Omberg
                         </figcaption>
@@ -96,7 +96,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 <div className="clock">
                     <h2 className="tim">18:30</h2>
                     <figure>
-                        <img src={"/pictures/Rob/1830.png"} alt="kollektiv-bilde" />
+                        <img src={"/pictures/Rob/1830.png"} alt="Illustrasjon av mann på sykkel kommer" />
                         <figcaption className="photographer">
                             Illustratør: Anne May Omberg
                         </figcaption>
@@ -111,7 +111,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 <div className="clock">
                     <h2 className="tim">18:35</h2>
                     <figure>
-                        <img src={"/pictures/Rob/1835.png"} alt="kollektiv-bilde" />
+                        <img src={"/pictures/Rob/1835.png"} alt="Illustrasjon av mann på sykkel ber om telefonene" />
                         <figcaption className="photographer">
                             Illustratør: Anne May Omberg
                         </figcaption>
@@ -131,7 +131,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 <div className="clock">
                     <h2 className="tim">18:37</h2>
                     <figure>
-                        <img src={"/pictures/Rob/1837.png"} alt="kollektiv-bilde" />
+                        <img src={"/pictures/Rob/1837.png"} alt="Illustrasjon av mann på sykkel tar frem en kniv" />
                         <figcaption className="photographer">
                             Illustratør: Anne May Omberg
                         </figcaption>
@@ -151,7 +151,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 <div className="clock">
                     <h2 className="tim">18:38-39</h2>
                     <figure>
-                        <img src={"/pictures/Rob/1838-39.png"} alt="kollektiv-bilde" />
+                        <img src={"/pictures/Rob/1838-39.png"} alt="Illustrasjon av Line som løper vekk og ringer faren" />
                         <figcaption className="photographer">
                             Illustratør: Anne May Omberg
                         </figcaption>
@@ -170,7 +170,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 <div className="clock">
                     <h2 className="tim">18:42-18:59</h2>
                     <figure>
-                        <img src={"/pictures/Rob/1842-59.png"} alt="kollektiv-bilde" />
+                        <img src={"/pictures/Rob/1842-59.png"} alt="Illustrasjon av faren som anholder mannen mens politiet er på vei" />
                         <figcaption className="photographer">
                             Illustratør: Anne May Omberg
                         </figcaption>

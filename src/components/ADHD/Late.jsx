@@ -58,7 +58,7 @@ export default function Late() {
 
                     <p>Hun beskriver det som om noen hadde trykket på en «quit»-knapp for alle de åpne fanene i hodet hennes. Den kaotiske støyen som alltid hadde fulgt henne, stilnet. «Radiokanaler» hun aldri hadde valgt å høre på, men som alltid hadde spilt i bakgrunnen, ble plutselig skrudd av. For første gang kunne hun fokusere på én tanke, én opplevelse, uten å bli overveldet av alt annet.</p>
                     <figure>
-                        <img className="drawing" src={"/pictures/ADHD/Tora/motorsykkel-backgrunn2x.webp"} alt="kollektiv-bilde" />
+                        <img className="drawing" src={"/pictures/ADHD/Tora/motorsykkel-backgrunn2x.webp"} alt="Illustrasjon av at Tora skal kjøre motorsykkel" />
                         <p className="photo-text">
                         - Det var en ganske syk opplevelse, forklarer hun. – Jeg innså hvordan andre må ha det hver dag.
                         </p>
