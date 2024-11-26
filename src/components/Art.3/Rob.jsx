@@ -18,7 +18,7 @@ export default function Rob() {
                     <figure>
                         <img src={"pictures/Rob/line-oda.png"} alt="Bilde av Line og Oda" />
                         <p className="photo-text">
-                            Lengst frem står Line-Aurora Herberg Thorvaldsen (21) med Oda Randem-Hansel (21) i bakgrunn
+                            Lengst frem står Line-Aurora Herberg Thorvaldsen (21) med Oda Randem-Hansel (21) i bakgrunn, fotografert i 2024. Begge var 17 år da hendelsen fant sted
                         </p>
                         <figcaption className="photographer">
                             Foto: Line-Aurora Herberg Thorvaldsen
@@ -41,7 +41,7 @@ export default function Rob() {
                 <section className="content">
                     <h4 className="noMarg">Planlagt tur endte i dramatikk</h4>
                     <p>
-                    Det var en varm ettermiddag i 2020 da Line-Aurora Herberg Thorvaldsen (da 17 år gammel) bestemte seg for å ta en tur med hunden. Hun avtalte å møte venninnen Oda Randem-Hansel (da 17 år gammel) ved "Vanntårnet", som ligger på halvveien mellom jentenes hjem. Selv om Lines mor hadde advart henne om å være forsiktig på grunn av nylige ran i området, følte Line seg trygg i det solfylte været.
+                    Det var en varm ettermiddag i 2020 da Line-Aurora Herberg Thorvaldsen (17) bestemte seg for å ta en tur med hunden. Hun avtalte å møte venninnen Oda Randem-Hansel (17) ved "Vanntårnet", som ligger på halvveien mellom jentenes hjem. Selv om Lines mor hadde advart henne om å være forsiktig på grunn av nylige ran i området, følte Line seg trygg i det solfylte været.
                     </p>
                     
                 </section>
@@ -161,7 +161,7 @@ export default function Rob() {
                     <figure>
                         <img src={"pictures/Rob/Line.jpg"} alt="Bilde av Line" />
                         <p className="photo-text">
-                        Line-Aurora Herberg Thorvaldsen (21)
+                        Line-Aurora Herberg Thorvalden (21) var 17 år da hendelsen fant sted
                         </p>
                         <figcaption className="photographer">
                             Foto: Jenny Østreng
