@@ -17,39 +17,39 @@ import Rob from './components/Art.3/Rob'
 import Rob2 from './components/Art.3/Rob2'
 
 function App() {
-  const [drinkTitle, setDrinkTitle] = useState("")
-  const [drinkQuote, setDrinkQuote] = useState("")
-  const [tollTitle, setTollTitle] = useState("")
-  const [tollQuote, setTollQuote] = useState("")
-  const [robTitle, setRobTitle] = useState("")
-  const [robQuote, setRobQuote] = useState("")
-  const [adhdTitle, setAdhdTitle] = useState("")
-  const [adhdQuote, setAdhdQuote] = useState("")
+  // const [drinkTitle, setDrinkTitle] = useState("")
+  // const [drinkQuote, setDrinkQuote] = useState("")
+  // const [tollTitle, setTollTitle] = useState("")
+  // const [tollQuote, setTollQuote] = useState("")
+  // const [robTitle, setRobTitle] = useState("")
+  // const [robQuote, setRobQuote] = useState("")
+  // const [adhdTitle, setAdhdTitle] = useState("")
+  // const [adhdQuote, setAdhdQuote] = useState("")
 
-  // Smålig modifisert kode fra Copilot{
-  useEffect(() => {
-    // Dynamically import the Drinking component and extract the title
-    import('./components/Art.1/Drinking' && './components/Art.2/Toll' && './components/Art.3/Rob' &&'./components/ADHD/RandomArticle').then(({ }) => {
-      const hiddenDiv = document.createElement('div')
-      document.body.appendChild(hiddenDiv)
+  // // Smålig modifisert kode fra Copilot{
+  // useEffect(() => {
+  //   // Dynamically import the Drinking component and extract the title
+  //   import('./components/Art.1/Drinking' && './components/Art.2/Toll' && './components/Art.3/Rob' &&'./components/ADHD/RandomArticle').then(({ }) => {
+  //     const hiddenDiv = document.createElement('div')
+  //     document.body.appendChild(hiddenDiv)
 
-      // Create a temporary React root to render the component
-      const root = ReactDOM.createRoot(hiddenDiv)
-      root.render(
-        <>
-          <Drinking setDrinkTitle={setDrinkTitle} setDrinkQuote={setDrinkQuote} />
-          <Toll setTollTitle={setTollTitle} setTollQuote={setTollQuote} />
-          <Rob setRobTitle={setRobTitle} setRobQuote={setRobQuote} />
-          <RandomArticle setAdhdTitle={setAdhdTitle} setAdhdQuote={setAdhdQuote} />
-        </>
-      )
+  //     // Create a temporary React root to render the component
+  //     const root = ReactDOM.createRoot(hiddenDiv)
+  //     root.render(
+  //       <>
+  //         <Drinking setDrinkTitle={setDrinkTitle} setDrinkQuote={setDrinkQuote} />
+  //         <Toll setTollTitle={setTollTitle} setTollQuote={setTollQuote} />
+  //         <Rob setRobTitle={setRobTitle} setRobQuote={setRobQuote} />
+  //         <RandomArticle setAdhdTitle={setAdhdTitle} setAdhdQuote={setAdhdQuote} />
+  //       </>
+  //     )
 
-      // Clean up the temporary div after extracting the title
-      setTimeout(() => {
-        document.body.removeChild(hiddenDiv)
-      }, 10)
-    })
-  }, [])
+  //     // Clean up the temporary div after extracting the title
+  //     setTimeout(() => {
+  //       document.body.removeChild(hiddenDiv)
+  //     }, 10)
+  //   })
+  // }, [])
   // }
 
   //   useEffect(() => {
