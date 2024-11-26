@@ -89,16 +89,6 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 </div>
                 <section className="content">
                     <p>På vei til vanntårnet ble Line sneiet av en merkelig mann på sykkel, men hun tenkte ikke noe mer over det da hun så venninen Oda komme gående.</p> 
-                        {/* <p>Annet enn dette startet turen uten problemer, men etter kort tid la Line merke til den samme mannen på sykkel som oppførte seg merkelig. Han syklet mot dem på den øde gangvei bak noen industribygg, en rute som sjelden brukes av andre.</p> */}
-                    {/* <figure>
-                        <img className="drawing" src={"/pictures/ADHD/Tora/motorsykkel-backgrunn2x.webp}" alt="kollektiv-bilde" />
-                        <p className="photo-text">
-                        - Det var en ganske syk opplevelse, forklarer hun. – Jeg innså hvordan andre må ha det hver dag.
-                        </p>
-                        <figcaption className="photographer">
-                            Illustratør: Anne May Omberg
-                        </figcaption>
-                    </figure> */}
                 </section>
             </div>
 
@@ -114,22 +104,6 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 </div>
                 <section className="content">
                 <p>Annet enn dette startet turen uten problemer, men etter kort tid la Line merke til den samme mannen på sykkel som oppførte seg merkelig. Han syklet mot dem på den øde gangvei bak noen industribygg, en rute som sjelden brukes av andre.</p>
-                    {/* <h4>Fra ubehag til trussel</h4>
-                    <p>
-                    Mannen stanset og henvendte seg til jentene, tilsynelatende for å låne en mobiltelefon. Line, som nylig hadde fått en ny mobil, avslo. Oda derimot, ga fra seg sin telefon. Det som startet som en tilsynelatende harmløs forespørsel, eskalerte raskt da mannen krevde passordet til telefonen. Da jentene nølte, dro han frem en kniv og stilte seg truende overfor dem.
-                    </p>
-                    <p className="sitat">- Jeg skjønte umiddelbart hva som skjedde og ropte til Oda at vi måtte løpe, forteller Line.
-                    </p> */}
-
-                    {/* <figure>
-                        <img src={"pictures/Rob/Line.jpg" alt}="kollektiv-bilde" />
-                        <p className="photo-text">
-                        Line-Aurora Herberg Thorvaldsen (17)
-                        </p>
-                        <figcaption className="photographer">
-                            Foto: Jenny Østreng
-                        </figcaption>
-                    </figure> */}
                 </section>
             </div>
 
@@ -148,12 +122,6 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                 
                     <p>
                     Mannen stanset og henvendte seg til jentene, tilsynelatende for å låne en mobiltelefon. </p>
-                    {/* <figure>
-                        <img src={"/pictures/Rob/18.35.png"} alt="kollektiv-bilde" />
-                        <figcaption className="photographer">
-                            Illustratør: Anne May Omberg
-                        </figcaption>
-                    </figure> */}
                     <p>Line, som nylig hadde fått en ny mobil, avslo. Oda derimot, ga fra seg sin telefon. Det som startet som en tilsynelatende harmløs forespørsel, eskalerte raskt da mannen krevde passordet til telefonen.
                     </p>
                 </section>
@@ -173,12 +141,6 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                     <p>
                     Da jentene nølte, dro han frem en kniv og stilte seg truende overfor dem.
                     </p>
-                {/* <figure>
-                        <img src={"/pictures/Rob/18.37.png"} alt="kollektiv-bilde" />
-                        <figcaption className="photographer">
-                            Illustratør: Anne May Omberg
-                        </figcaption>
-                    </figure> */}
                     <p className="sitat">- Jeg skjønte umiddelbart hva som skjedde og ropte til Oda at vi måtte løpe, forteller Line.
                     </p>
                     
@@ -258,7 +220,7 @@ export default function Rob({ setRobTitle, setRobQuote }) {
                     Mannen er mistenkt for lignende ran mot minst 6–7 andre ungdommer i området. Politiet mener at Line, Oda og farens handlinger var avgjørende for å få stoppet mannen.
                     </p>
                     <p className="sitat">– Det er skremmende å tenke på at han kunne ha fortsatt om vi ikke hadde handlet, avslutter Line.</p>
-                    <p>Mer om mannen og dommen kan leses <a href="https://www.vestbyavis.no/forst-ble-vestby-mannen-domt-for-fire-ran-na-har-han-fatt-enda-en-dom/s/5-53-732410" id="dommen">her</a></p>
+                    <p>Mer om mannen og dommen kan leses <a href="https://www.vestbyavis.no/forst-ble-vestby-mannen-domt-for-fire-ran-na-har-han-fatt-enda-en-dom/s/5-53-732410" id="dommen">her</a>(Betalt abonnement til vestbyavis.no)</p>
                 </section>
             </div>
 
