@@ -1,13 +1,4 @@
-// import { useEffect } from "react";
-
 export default function Drinking() {
-
-    // useEffect(() => {
-    //     const drinking = document.getElementById("drinkTitle")?.innerText
-    //     const quote = document.getElementById("drinkQuote")?.innerText
-    //     setDrinkTitle(drinking)
-    //     setDrinkQuote(quote)
-    // }, [setDrinkTitle, setDrinkQuote])
 
     //Data for drikke-animasjon     
     //https://studenthelse.no/shot-2022/rusmidler/

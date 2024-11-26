@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Early() {
     return (
         <main id="late">
@@ -83,6 +84,8 @@ export default function Early() {
                     <p className="sitat">- Ta imot all hjelpen du får, og alt som blir tilbudt, sier Tuva.</p> 
                     <p>Hun oppfordrer til å ikke bry seg om hva andre måtte mene eller si, særlig negative kommentarer.</p> 
                     <p className="sitat">- Ta imot hjelpen med åpne armer, selv om det kanskje ikke føles som noe du vil akkurat der og da. Bare gjør det, råder hun.</p>
+
+                    <p>Les historien til Tora som fikk diagnosen sent <Link to="/adhd/sent">her</Link></p>
                 </article>
             </section>
         </main>

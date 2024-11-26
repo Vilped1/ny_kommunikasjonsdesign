@@ -16,7 +16,7 @@ export default function Home(){
                     </article>
 
                     <article id="S">
-                <Link to="rob">
+                <Link to="/rob">
                         <img src={"/pictures/Rob/line-oda.png"} alt="Bilde av Line og Oda"/>
                         <h3>Ungdom utsatt for knivran – mann pågrepet kort tid etter</h3>
                         <p>“Pappa det er noen som truer oss med kniv!”</p>

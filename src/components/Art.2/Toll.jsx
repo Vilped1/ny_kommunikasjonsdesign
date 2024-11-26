@@ -1,24 +1,13 @@
-// import { useEffect, useState } from "react";
-import { list } from "./TollList";
 import Map from "./Map";
-// import MapTest from "./MapTest";
 
 export default function Toll() {
-
-    //FUNCTION TO CHECK IF ELEMENT IS IN VIEWPOR
-    // useEffect(() => {
-    //     const toll = document.getElementById("tollTitle")?.innerText
-    //     const quote = document.getElementById("tollQuote")?.innerText
-    //     setTollTitle(toll)
-    //     setTollQuote(quote)
-    // }, [setTollTitle, setTollQuote])
 
     return (
         <>
             <main id="toll">
                 <section className="header tollHeader">
                     <h1 className="title" id="tollTitle">Bomringer i hverdagen: <br />Kostnaden for å krysse bygrensene</h1>
-                    <p className="photographer">!!!</p>
+                    <p className="photographer">Viken Fylkeskommune</p>
                 </section>
                 <section id="content">
                     <article id="bom">
@@ -32,7 +21,7 @@ export default function Toll() {
                                 - Det er en regning som kommer på toppen av alt annet, som man egentlig aldri har råd til, sier Gitte Yvonne Bjørndal Olsen (55) fra Sarpsborg.
                                 </p>
                                 <figcaption className="photographer">
-                                    Foto: Jenny Østreng
+                                    Foto: Gitte Yvonne Bjørndal Olsen
                                 </figcaption>
                             </figure>
                             {/* <p className="sitat">- Det er en regning som kommer på toppen av alt annet, som man egentlig aldri har råd til, sier Gitte Yvonne Bjørndal Olsen (55) fra Sarpsborg.</p> */}

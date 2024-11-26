@@ -1,33 +1,4 @@
-// import { useEffect } from "react";
-
 export default function Rob() {
-
-    const times = [
-        {time: "18:00", id: "one"},
-        {time: "18:20", id: "two"},
-        {time: "18:30", id: "three"},
-        {time: "18:35", id: "four"},
-        {time: "18:38", id: "five"},
-        {time: "18:39", id: "six"},
-        {time: "18:42", id: "seven"},
-        {time: "18:50", id: "eight"},
-        {time: "18:53", id: "nine"},
-        {time: "18:54", id: "ten"},
-        {time: "18:59", id: "elleven"},
-        {time: "19:15", id: "twelve"},
-    ]
-    
-    // useEffect(() => {
-    //     const rob = document.getElementById("robTitle")?.innerText
-    //     const quote = document.getElementById("robQuote")?.innerText
-    //     setRobTitle(rob)
-    //     setRobQuote(quote)
-    // }, [setRobTitle, setRobQuote])
-
-    //Data for drikke-animasjon     
-    //https://studenthelse.no/shot-2022/rusmidler/
-    //https://www.fhi.no/publ/eldre/studenter-og-rusmidler/
-
     return (
         <main id="robing">
             <section className="header robHeader">
