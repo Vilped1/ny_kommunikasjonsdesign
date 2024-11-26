@@ -27,7 +27,7 @@ export default function Toll() {
                             <p>For mange i Sarpsborg og Fredrikstad har bompenger blitt en stor utgift i hverdagen. Flere innbyggere må krysse bomringen daglig – til jobb, familie og fritid – og føler at bompengene påvirker både økonomi og livskvalitet.</p>
                             
                             <figure>
-                                <img src={"/pictures/Drinking/beerpong.PNG"} alt="Bilde av Gitte" />
+                                <img src={"/pictures/Toll/Gitte@3x.png"} alt="Bilde av Gitte" />
                                 <p className="photo-text">
                                 - Det er en regning som kommer på toppen av alt annet, som man egentlig aldri har råd til, sier Gitte Yvonne Bjørndal Olsen (55) fra Sarpsborg.
                                 </p>
